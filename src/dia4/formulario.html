@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method>
+        <h4>input tipo texto</h4>
+        <input type="text" placeholder="ingrese su Nombre" value="Michael" name="nombresss" maxlength="10"
+            minlength="5" />
+        <h4>input tipo texto</h4>
+        <input type="number" placeholder="ingrese numero" name="numero" />
+        <h4>input fecha</h4>
+        <input type="date" placeholder="ingrese fecha" name="fecha" />
+        <h4>input Hora</h4>
+        <input type="time" placeholder="ingrese fecha" name="tiempo" />
+        <h4>input archivo</h4>
+        <input type="file" placeholder="ingrese archivo" name="file" />
+        <h4>input color</h4>
+        <input type="color" placeholder="ingrese archivo" name="color" />
+        <h4>input password</h4>
+        <input type="password" placeholder="ingrese password" name="password" required />
+        <h4>input correo</h4>
+        <label for="correoo"><input id="correoo" type="email" placeholder="Ingrese correo" name="correo" required /></label>
+        
+        <h4>los select son como menu desplegables</h4>
+
+        <select name="cursos_codigo">
+            <option value="html">html</option>
+            <option value="css">css</option>
+            <option value="js">js</option>
+            <option value="react">react</option>
+        </select>
+
+        <h3>Botones</h3>
+        <input type="submit" value="BOTON DE ENVIO" />
+        <button type="submit">Enviar</button>
+
+        <h3>Imput radio buton sirve para escoger una opcion solo una </h3>
+        <label for="color"><input id="color"  type="radio" name="colores" />verde</label>
+        
+        <input type="radio" name="colores" />azul
+        <input type="radio" name="colores" />amarillo
+
+        <h3>checkbox</h3>
+        <!-- los checkbox permiten marcar mas de una opcion
+     -->
+        <input type="checkbox" name="curso" />HTML
+        <input type="checkbox" name="curso" />CSS
+        <input type="checkbox" name="curso" />JS
+        <input type="checkbox" name="curso" />REACT
+    
+        <h4>Text area</h4>
+        <textarea placeholder="ingrese texto" name="textomio"
+        rows="5"
+        cols="40"></textarea>
+    
+    </form>
+
+    <footer>
+        <br/>
+    </footer>
+</body>
+
+</html>
