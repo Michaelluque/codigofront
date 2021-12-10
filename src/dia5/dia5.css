@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    color: blueviolet;
+    background-color: black;
+    font-weight: bold;
+    
+}
+
+body{
+ 
+    font-family: "gill sans", Helvetica, sans-serif;
+}
+section{ 
+
+    background-color: yellow;
+    border: 3px red solid;
+
+}
+article p{
+    color: blue;
+  
+    
+}
+
+nav {
+    text-align: center;
+}
+
+li{
+    color: green;
+}
+ul{
+    background-color: grey;
+
+
+}
+ul li{
+    list-style: none;
+    display: inline;
+
+    
+}
+a{
+    color: yellow;
+    text-decoration: none;
+}
+
+
+div{
+    width: 500;
+    height: 500;
+    text-align: center;
+}
+
+/* ID */
+/* PARA ACCEDER AL ID SE USA # + EL NOMBRE DEL ID */
+/* ID SE UNICO NO SE DEBE REPETIR */
+#titulo {
+    color: violet;
+}
+#text__nombre {
+    text-align: center;
+}
+
+/* CLASES SE USAN CUANDO SE VA A REPETIR IDENTIFICADORES */
+/* se recomienda usar clases en vex de id. ID SOLO CUANDO SEA NECESARIO */
+.texto1 {
+    text-align: center;
+}
+#logo{
+    width: 500px;
+    height: 300px;
+    border: 4px red solid;
+}

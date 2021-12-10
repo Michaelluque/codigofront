@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Selectores</title>
+    <style>
+        /* css globales */
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+
+        }
+
+        /* selector de etiqueta */
+        header {
+            background-color: red;
+        }
+
+        /* selector descendiente */
+        /* nombre del padre y eliges el hijo que quiere cambiar */
+
+        main p {
+            color: orange;
+            font-size: 50px;
+        }
+
+        /* selector por CLASS */
+        /* se recomienda usar el padre y no poner directo el nombre de la clase */
+
+        header .logo {
+            color: green;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <header>
+            <a class="logo" href="/">LOGO</a>
+            <nav>
+                <ul>
+                    <li> <a href="/">inicio</a></li>
+                    <li> <a href="/">Contacto</a></li>
+
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <p>Titulo</p>
+        </main>
+        <footer>
+            <p>adjsadksa</p>
+        </footer>
+    </div>
+</body>
+
+</html>
