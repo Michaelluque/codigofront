@@ -4,6 +4,7 @@ main {
   max-width: 960px;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
 }
 input {
   margin-bottom: 20px;
@@ -11,6 +12,7 @@ input {
 h2 {
   font-size: 35px;
   text-align: center;
+  font-weight: bold;
   padding: 20px;
 }
 /* Codigo */
@@ -61,12 +63,14 @@ p {
 /* skils */
 .skills {
   background: #9122ff;
+  padding: 10px 30px 10px 75px;
 }
 .contenedor_skills {
   display: flex;
   flex-wrap: wrap;
   padding: 20px 40px;
-  justify-content: space-between;
+  color: white;
+  
 }
 h4 {
   width: 48%;
@@ -75,12 +79,23 @@ h4 {
 .pro1 {
   width: 50%;
   margin-bottom: 15px;
+  
 }
 .progreso {
-  display: flex;
-  padding: 5px;
-  background: chartreuse;
-  width: 70%;
+
+ height: 15px;
+ border-radius: 20px;
+  background: white;
+  width: 85%;
+  position: relative;
+}
+.nivel{
+  background: #57EFF9;
+  width: 35%;
+  position: absolute;
+  height: 15px;
+  border-radius: 20px;
+
 }
 
 /* Portafolio */
@@ -102,7 +117,7 @@ h4 {
   background: #3f4e62;
 }
 .clientes1 {
-  padding: 0px 50px 40px;
+  padding: 25px 50px 40px;
   display: flex;
   justify-content: space-around;
   align-items: center;
