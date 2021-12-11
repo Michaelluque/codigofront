@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://127.0.0.1:5500/src/Semana2/practica3/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Practica 3_files/reset.css">
+    <link rel="stylesheet" href="./Practica 3_files/main.css">
+    <title>Practica 3</title>
+</head>
+
+<body>
+    <main>
+        <section class="codigo">
+
+            <h1>CodiGO</h1>
+            <h3>Hola mi nombre es Michael Luque</h3>
+        </section>
+        <section class="Sobre_mi">
+            <h2>Sobre mi</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vel praesentium dicta suscipit repellendus
+                molestiae quos expedita? Nesciunt modi molestiae explicabo saepe ipsam, quidem sint! Eveniet quidem
+                eaque
+                voluptatum accusantium?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vel praesentium dicta suscipit
+                repellendus
+                molestiae quos expedita? Nesciunt modi molestiae explicabo saepe ipsam, quidem sint! Eveniet quidem
+                eaque
+                voluptatum accusantium?</p>
+            <input type="submit" placeholder="ver CV" class="btn_cv">
+        </section>
+        <section>Mis Skills</section>
+        <section class="portafolio">
+            <h2>Portafolio</h2>
+            <div class="img_portafolio">
+                <img src="./Practica 3_files/image (1).png" class="img_porta">
+                <img src="./Practica 3_files/image (2).png" class="img_porta">
+                <img src="./Practica 3_files/image (3).png" class="img_porta">
+                <img src="./Practica 3_files/image (4).png" class="img_porta">
+                <img src="./Practica 3_files/image (5).png" class="img_porta">
+                <img src="./Practica 3_files/image (6).png" class="img_porta">
+                <img src="./Practica 3_files/image (7).png" class="img_porta">
+                <img src="./Practica 3_files/image.png" class="img_porta">
+            </div>
+        </section>
+        <section class="clientes">
+            <h2>Clientes</h2>
+            <div class="clientes1">
+                <img src="./Practica 3_files/image (8).png">
+                <img src="./Practica 3_files/image (9).png">
+                <img src="./Practica 3_files/image (10).png">
+                <img src="./Practica 3_files/image (11).png">
+            </div>
+        </section>
+        <form>
+            <h2>Contacto</h2>
+            <div class="contenedor_inputs">
+                <input type="text" placeholder="Nombres" class="inputs">
+                <input type="text" placeholder="Apellido" class="inputs">
+                <input type="email" placeholder="Email" class="inputs">
+                <input type="text" placeholder="telefono" class="inputs">
+                <textarea placeholder="Descripcion" class="textarea"></textarea>
+                <input type="submit" placeholder="Enviar" class="btn">
+            </div>
+        </form>
+    </main>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

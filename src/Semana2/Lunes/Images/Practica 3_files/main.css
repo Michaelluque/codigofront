@@ -1,0 +1,111 @@
+/* Globales */
+main{
+
+  width: 960px;
+  max-width: 960px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input{
+  margin-bottom: 20px;
+}
+h2{
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+}
+/* Codigo */
+
+.codigo{
+  background-image: url(./images/image\ 1.png) ;
+  height: 500px;
+  position: relative;
+  
+}
+h1{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding: 30px;
+    
+}
+h3{
+  position: absolute;
+}
+
+/* Sobre Mi */
+.Sobre_mi{
+  background: #7299FE;
+  color: white;
+  padding: 20px;
+}
+
+p{
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.btn_cv{
+  background: #D16FFF;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 40px;
+
+}
+/* Portafolio */
+.portafolio{
+  background: #FFD233 ;
+}
+.img_portafolio{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 150px;
+  justify-content: space-between;
+}
+.img_porta{
+  width: 23%;
+  margin-bottom: 25px;
+
+}
+/* Cliente */
+.clientes{
+  background: #3F4E62;
+}
+.clientes1{
+  padding: 0px 50px 40px;
+  display: flex;
+  justify-content: space-around;
+    align-items: center;
+}
+/* Contacto */
+form {
+  background:#1687A0;
+  padding: 10px;
+  
+}
+.contenedor_inputs{
+  padding: 10px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.inputs{
+  width: 48%;
+  padding: 10px;
+  box-sizing: border-box;
+  }
+.textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.btn{
+  background: #233451;
+  color: white;
+  border: none;
+  margin: auto;
+  padding: 10px 40px;
+  
+}

@@ -1,0 +1,137 @@
+/* Globales */
+main {
+  width: 960px;
+  max-width: 960px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input {
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+}
+/* Codigo */
+
+.codigo {
+  background-image: url(./images/image\ 1.png);
+  height: 500px;
+  position: relative;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding: 30px;
+}
+h3 {
+  position: absolute;
+  background: skyblue;
+  color: white;
+  padding: 20px;
+  width: 250px;
+  margin-top: 20%;
+  margin-left: 5%;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+
+/* Sobre Mi */
+.Sobre_mi {
+  background: #7299fe;
+  color: white;
+  padding: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.btn_cv {
+  background: #d16fff;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 40px;
+}
+/* skils */
+.skills {
+  background: #9122ff;
+}
+.contenedor_skills {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+  justify-content: space-between;
+}
+h4 {
+  width: 48%;
+  margin-bottom: 7px;
+}
+.pro1 {
+  width: 50%;
+  margin-bottom: 15px;
+}
+.progreso {
+  display: flex;
+  padding: 5px;
+  background: chartreuse;
+  width: 70%;
+}
+
+/* Portafolio */
+.portafolio {
+  background: #ffd233;
+}
+.img_portafolio {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 150px;
+  justify-content: space-between;
+}
+.img_porta {
+  width: 23%;
+  margin-bottom: 25px;
+}
+/* Cliente */
+.clientes {
+  background: #3f4e62;
+}
+.clientes1 {
+  padding: 0px 50px 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Contacto */
+form {
+  background: #1687a0;
+  padding: 10px;
+}
+.contenedor_inputs {
+  padding: 10px 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.inputs {
+  width: 48%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.btn {
+  background: #233451;
+  color: white;
+  border: none;
+  margin: auto;
+  padding: 10px 40px;
+}
